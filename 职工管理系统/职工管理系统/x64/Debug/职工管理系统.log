@@ -1,0 +1,4 @@
+﻿  worker_manage_system.cpp
+E:\vstest\职工管理系统\worker_manage_system.cpp(122,4): warning C4102: “deault”: 未引用的标签
+E:\vstest\职工管理系统\worker_manage_system.cpp(362,3): warning C4102: “deault”: 未引用的标签
+  职工管理系统.vcxproj -> E:\vstest\职工管理系统\x64\Debug\职工管理系统.exe
