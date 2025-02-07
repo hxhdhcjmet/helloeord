@@ -1,1 +1,1 @@
-this is a simple Address Book Management System written by C++
+利用C++写的实现简单功能的管理系统
