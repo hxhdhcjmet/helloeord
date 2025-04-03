@@ -1,0 +1,19 @@
+# Visual Studio 专用忽略规则
+.vs/
+Debug/
+Release/
+ipch/
+*.sdf
+*.suo
+*.user
+x64/
+x86/
+*.vcxproj.user
+
+# 通用忽略规则
+*.exe
+*.dll
+*.ilk
+*.pdb
+*.obj
+*.log
