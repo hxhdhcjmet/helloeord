@@ -51,6 +51,11 @@ Worker_manage_system::Worker_manage_system()
 }
 Worker_manage_system::~Worker_manage_system()
 {
+	for(int i=0;i<this->m_emp_num;i++){
+		delete m_emp_arr[i];
+	} 
+	delete[] m_emp_array;
+	m_emp_array=nullptr;
 
 }
 //展示菜单
@@ -119,7 +124,7 @@ void Worker_manage_system::add_emp()
 			case 2:
 				sex = "woman";
 				break;
-			deault:
+			default:
 				cout << "错误选择，默认选择为男性";
 				sex = "man";
 				break;
@@ -359,7 +364,7 @@ void Worker_manage_system::mod_emp()
 		case 2:
 			new_sex = "woman";
 			break;
-		deault:
+		default:
 			cout << "错误选择，默认选择为男性";
 			new_sex = "man";
 			break;

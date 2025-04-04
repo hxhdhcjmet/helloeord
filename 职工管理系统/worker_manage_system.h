@@ -11,6 +11,8 @@ using namespace std;
 class Worker_manage_system
 {
 public:
+	Worker_manage_system(const Worker_manage_system&)=delete;
+	void operator=(const Worker_manage_system&)=delete; 
 	Worker_manage_system();
 	~Worker_manage_system();
 	//Õ¹Ê¾²Ëµ¥

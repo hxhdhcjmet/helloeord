@@ -1,6 +1,6 @@
 #include"employer.h"
 #include"worker.h"
-Employer::Employer(int m_id, string m_name, int m_deptid, string m_sex,int m_age)
+Employer::Employer(int m_id, const string& m_name, int m_deptid, const string& m_sex,int m_age)
 {
 	this->m_id = m_id;
 	this->m_name = m_name;

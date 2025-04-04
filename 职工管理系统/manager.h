@@ -6,8 +6,8 @@ class Manager :public Worker
 {
 public:
 	Manager(int m_id, string m_name, int m_deptid, string m_sex, int m_age);
-	void show_self_info();
+	void show_self_info() override;
 	//获取岗位信息
-	string show_dept_info();
+	string show_dept_info() override;
 
 };
